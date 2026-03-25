@@ -1,0 +1,10 @@
+C:\Users\sohan\source\repos\PremierProjet\bin\Debug\PremierProjet.exe.config
+C:\Users\sohan\source\repos\PremierProjet\bin\Debug\PremierProjet.exe
+C:\Users\sohan\source\repos\PremierProjet\bin\Debug\PremierProjet.pdb
+C:\Users\sohan\source\repos\PremierProjet\obj\Debug\PremierProjet.csproj.AssemblyReference.cache
+C:\Users\sohan\source\repos\PremierProjet\obj\Debug\PremierProjet.Form1.resources
+C:\Users\sohan\source\repos\PremierProjet\obj\Debug\PremierProjet.Properties.Resources.resources
+C:\Users\sohan\source\repos\PremierProjet\obj\Debug\PremierProjet.csproj.GenerateResource.cache
+C:\Users\sohan\source\repos\PremierProjet\obj\Debug\PremierProjet.csproj.CoreCompileInputs.cache
+C:\Users\sohan\source\repos\PremierProjet\obj\Debug\PremierProjet.exe
+C:\Users\sohan\source\repos\PremierProjet\obj\Debug\PremierProjet.pdb

@@ -46,7 +46,6 @@
             this.textBoxFautes = new System.Windows.Forms.TextBox();
             this.buttonEnregResultat = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
-            this.listBoxRecus = new System.Windows.Forms.RichTextBox();
             this.buttonAffichRecus = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -54,6 +53,7 @@
             this.labelPourcent = new System.Windows.Forms.Label();
             this.labelPourcentM = new System.Windows.Forms.Label();
             this.labelPourcentF = new System.Windows.Forms.Label();
+            this.listBoxRecus = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // TextBoxNom
@@ -128,6 +128,7 @@
             this.buttonEnregCandidat.TabIndex = 8;
             this.buttonEnregCandidat.Text = "Enregistrer un candidat";
             this.buttonEnregCandidat.UseVisualStyleBackColor = true;
+            this.buttonEnregCandidat.Click += new System.EventHandler(this.buttonEnregCandidat_Click);
             // 
             // label6
             // 
@@ -206,6 +207,7 @@
             this.buttonEnregResultat.TabIndex = 19;
             this.buttonEnregResultat.Text = "Enregistrer un résultat";
             this.buttonEnregResultat.UseVisualStyleBackColor = true;
+            this.buttonEnregResultat.Click += new System.EventHandler(this.buttonEnregResultat_Click);
             // 
             // label9
             // 
@@ -216,14 +218,6 @@
             this.label9.TabIndex = 20;
             this.label9.Text = "Liste des candidats reçus";
             // 
-            // listBoxRecus
-            // 
-            this.listBoxRecus.Location = new System.Drawing.Point(587, 40);
-            this.listBoxRecus.Name = "listBoxRecus";
-            this.listBoxRecus.Size = new System.Drawing.Size(100, 96);
-            this.listBoxRecus.TabIndex = 21;
-            this.listBoxRecus.Text = "";
-            // 
             // buttonAffichRecus
             // 
             this.buttonAffichRecus.Location = new System.Drawing.Point(560, 202);
@@ -232,6 +226,7 @@
             this.buttonAffichRecus.TabIndex = 22;
             this.buttonAffichRecus.Text = "Afficher reçus";
             this.buttonAffichRecus.UseVisualStyleBackColor = true;
+            this.buttonAffichRecus.Click += new System.EventHandler(this.buttonAffichRecus_Click);
             // 
             // label10
             // 
@@ -287,11 +282,21 @@
             this.labelPourcentF.TabIndex = 28;
             this.labelPourcentF.Text = "0";
             // 
+            // listBoxRecus
+            // 
+            this.listBoxRecus.FormattingEnabled = true;
+            this.listBoxRecus.ItemHeight = 16;
+            this.listBoxRecus.Location = new System.Drawing.Point(578, 40);
+            this.listBoxRecus.Name = "listBoxRecus";
+            this.listBoxRecus.Size = new System.Drawing.Size(147, 100);
+            this.listBoxRecus.TabIndex = 29;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1202, 596);
+            this.Controls.Add(this.listBoxRecus);
             this.Controls.Add(this.labelPourcentF);
             this.Controls.Add(this.labelPourcentM);
             this.Controls.Add(this.labelPourcent);
@@ -299,7 +304,6 @@
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.buttonAffichRecus);
-            this.Controls.Add(this.listBoxRecus);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.buttonEnregResultat);
             this.Controls.Add(this.textBoxFautes);
@@ -320,6 +324,7 @@
             this.Controls.Add(this.TextBoxNom);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -345,7 +350,6 @@
         private System.Windows.Forms.TextBox textBoxFautes;
         private System.Windows.Forms.Button buttonEnregResultat;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.RichTextBox listBoxRecus;
         private System.Windows.Forms.Button buttonAffichRecus;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
@@ -353,6 +357,7 @@
         private System.Windows.Forms.Label labelPourcent;
         private System.Windows.Forms.Label labelPourcentM;
         private System.Windows.Forms.Label labelPourcentF;
+        private System.Windows.Forms.ListBox listBoxRecus;
     }
 }
 
