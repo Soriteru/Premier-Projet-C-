@@ -144,9 +144,9 @@
             this.labelNumero.AutoSize = true;
             this.labelNumero.Location = new System.Drawing.Point(151, 248);
             this.labelNumero.Name = "labelNumero";
-            this.labelNumero.Size = new System.Drawing.Size(14, 16);
+            this.labelNumero.Size = new System.Drawing.Size(26, 16);
             this.labelNumero.TabIndex = 12;
-            this.labelNumero.Text = "0";
+            this.labelNumero.Text = "NA";
             // 
             // label1
             // 

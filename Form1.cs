@@ -62,6 +62,7 @@ namespace PremierProjet
             nbRecus = 0;
             nbRecusM = 0;
             nbRecusF = 0;
+            listBoxRecus.Items.Clear();
 
             for(int i = 0; i < nbCandidats; i++)
             {
